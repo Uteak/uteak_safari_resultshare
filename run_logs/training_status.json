@@ -1,0 +1,125 @@
+{
+    "WhiteAgent": {
+        "checkpoints": [
+            {
+                "steps": 6999986,
+                "file_path": "results\\CSI_1\\WhiteAgent\\WhiteAgent-6999986.onnx",
+                "reward": 0.3862839044150888,
+                "creation_time": 1651360051.940915,
+                "auxillary_file_paths": [
+                    "results\\CSI_1\\WhiteAgent\\WhiteAgent-6999986.pt"
+                ]
+            },
+            {
+                "steps": 7999999,
+                "file_path": "results\\CSI_1\\WhiteAgent\\WhiteAgent-7999999.onnx",
+                "reward": 0.9397222250699997,
+                "creation_time": 1651363178.6512563,
+                "auxillary_file_paths": [
+                    "results\\CSI_1\\WhiteAgent\\WhiteAgent-7999999.pt"
+                ]
+            },
+            {
+                "steps": 8999988,
+                "file_path": "results\\CSI_1\\WhiteAgent\\WhiteAgent-8999988.onnx",
+                "reward": 0.48763554754190974,
+                "creation_time": 1651366407.6975496,
+                "auxillary_file_paths": [
+                    "results\\CSI_1\\WhiteAgent\\WhiteAgent-8999988.pt"
+                ]
+            },
+            {
+                "steps": 9999987,
+                "file_path": "results\\CSI_1\\WhiteAgent\\WhiteAgent-9999987.onnx",
+                "reward": 0.014856452157979377,
+                "creation_time": 1651369612.7158165,
+                "auxillary_file_paths": [
+                    "results\\CSI_1\\WhiteAgent\\WhiteAgent-9999987.pt"
+                ]
+            },
+            {
+                "steps": 10003336,
+                "file_path": "results\\CSI_1\\WhiteAgent\\WhiteAgent-10003336.onnx",
+                "reward": 0.061009905927686445,
+                "creation_time": 1651369769.507474,
+                "auxillary_file_paths": [
+                    "results\\CSI_1\\WhiteAgent\\WhiteAgent-10003336.pt"
+                ]
+            }
+        ],
+        "elo": 6822.010281629224,
+        "final_checkpoint": {
+            "steps": 10003336,
+            "file_path": "results\\CSI_1\\WhiteAgent.onnx",
+            "reward": 0.061009905927686445,
+            "creation_time": 1651369769.507474,
+            "auxillary_file_paths": [
+                "results\\CSI_1\\WhiteAgent\\WhiteAgent-10003336.pt"
+            ]
+        }
+    },
+    "BlackAgent": {
+        "checkpoints": [
+            {
+                "steps": 6999991,
+                "file_path": "results\\CSI_1\\BlackAgent\\BlackAgent-6999991.onnx",
+                "reward": 0.41061137875907083,
+                "creation_time": 1651360212.7629135,
+                "auxillary_file_paths": [
+                    "results\\CSI_1\\BlackAgent\\BlackAgent-6999991.pt"
+                ]
+            },
+            {
+                "steps": 7999997,
+                "file_path": "results\\CSI_1\\BlackAgent\\BlackAgent-7999997.onnx",
+                "reward": -0.1746330242176805,
+                "creation_time": 1651363360.3708584,
+                "auxillary_file_paths": [
+                    "results\\CSI_1\\BlackAgent\\BlackAgent-7999997.pt"
+                ]
+            },
+            {
+                "steps": 8999984,
+                "file_path": "results\\CSI_1\\BlackAgent\\BlackAgent-8999984.onnx",
+                "reward": 0.18871944001488905,
+                "creation_time": 1651366560.8170724,
+                "auxillary_file_paths": [
+                    "results\\CSI_1\\BlackAgent\\BlackAgent-8999984.pt"
+                ]
+            },
+            {
+                "steps": 9999969,
+                "file_path": "results\\CSI_1\\BlackAgent\\BlackAgent-9999969.onnx",
+                "reward": 0.20338461561756727,
+                "creation_time": 1651369769.3514729,
+                "auxillary_file_paths": [
+                    "results\\CSI_1\\BlackAgent\\BlackAgent-9999969.pt"
+                ]
+            },
+            {
+                "steps": 10000001,
+                "file_path": "results\\CSI_1\\BlackAgent\\BlackAgent-10000001.onnx",
+                "reward": 0.20338461561756727,
+                "creation_time": 1651369769.7074764,
+                "auxillary_file_paths": [
+                    "results\\CSI_1\\BlackAgent\\BlackAgent-10000001.pt"
+                ]
+            }
+        ],
+        "elo": 6802.446704413377,
+        "final_checkpoint": {
+            "steps": 10000001,
+            "file_path": "results\\CSI_1\\BlackAgent.onnx",
+            "reward": 0.20338461561756727,
+            "creation_time": 1651369769.7074764,
+            "auxillary_file_paths": [
+                "results\\CSI_1\\BlackAgent\\BlackAgent-10000001.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.11.0+cu113"
+    }
+}
